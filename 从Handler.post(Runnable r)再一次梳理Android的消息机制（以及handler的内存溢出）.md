@@ -1,7 +1,7 @@
 ## Handler
 每个初学Android开发的都绕不开Handler这个“坎”，为什么说是个坎呢，首先这是Android架构的精髓之一，其次大部分人都是知其然却不知其所以然。今天看到Handler.post这个方法之后决定再去翻翻源代码梳理一下Handler的实现机制。
 ## 异步更新UI
-先来一个必背口诀“**主线程不做耗时操作，子线程不更新UI**”，这个规定应该是初学必知的，那要怎么来解决口诀里的问题呢，这时候Handler就出现在我们面前了（AsyncTask也行，不过本质上还是对Handler的封装），来一段经典常用代码(这里忽略内存溢出问题，我们后面再说)：
+先来一个必背口诀“**主线程不做耗时操作，子线程不更新UI**”，这个规定应该是初学必知的，那要怎么来解决口诀里的问题呢，这时候Handler就出现在我们面前了（AsyncTask也行，不过本质上还是对Handler的封装），来一段经典常用代码(这里忽略内存泄露问题，我们后面再说)：
 
 首先在Activity中新建一个handler:
 
@@ -117,7 +117,7 @@ private static Message getPostMessage(Runnable r) {
         return m;
     }
 ```
-这个方法我们发现也很简单，其实也是讲我们传入的参数封装成了一个消息，只是这次是将Runnable封装成了消息，之前是int类型，一个是**m.callback**，一个是**m.what**
+这个方法我们发现也是将我们传入的参数封装成了一个消息，只是这次是**m.callback = r**,刚才是**msg.what=what**,至于Message的这些属性就不看了
 ## Android消息机制
 看到这里，我们只是知道了post和sendMessage原理都是封装成Message，但是还是不清楚Handler的整个机制是什么样子，继续探究下去。
 
@@ -273,12 +273,24 @@ public Handler(Looper looper, Callback callback, boolean async) {
 
 已经大概梳理了一下Handler的消息机制，以及post方法和我们常用的sendMessage方法的区别。来总结一下，主要涉及四个类**Handler、Message、MessageQueue、Looper**：
 
-- 新建**Handler**，通过sendMessage或者post发送消息，**Handler**调用**sendMessageAtTime**将**Message**交给**MessageQueue**
-- **MessageQueue.enqueueMessage**方法将**Message**以链表的形式放入队列中
-- **Looper**的**loop**方法循环调用**MessageQueue.next()** 取出消息，并且调用**Handler**的**dispatchMessage**来处理消息
-- 在**dispatchMessage**中，分别判断**msg.callback、mCallback**也就是post方法或者构造方法传入的不为空就执行他们的回调，如果都为空就执行我们最常用重写的**handleMessage**。
+新建**Handler**，通过sendMessage或者post发送消息，**Handler**调用**sendMessageAtTime**将**Message**交给**MessageQueue**
 
-## 最后谈谈handler的内存溢出问题
+---
+
+**MessageQueue.enqueueMessage**方法将**Message**以链表的形式放入队列中
+
+---
+
+**Looper**的**loop**方法循环调用**MessageQueue.next()**取出消息，并且调用**Handler**的**dispatchMessage**来处理消息
+
+---
+
+在**dispatchMessage**中，分别判断**msg.callback、mCallback**也就是post方法或者构造方法传入的不为空就执行他们的回调，如果都为空就执行我们最常用重写的**handleMessage**。
+
+---
+
+
+## 最后谈谈handler的内存泄露问题
 再来看看我们的新建Handler的代码：
 ```
 private Handler mHandler = new Handler() {
