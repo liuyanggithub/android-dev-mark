@@ -2,6 +2,14 @@
 > Android development mark, It used to collect the knowledge of Android Development. 
 > 一些Android开发时自己写的或者收藏的笔记
 
+
+----------
+## 以下为原创的一些东西：
+#### 从Handler.post(Runnable r)再一次梳理Android的消息机制（以及handler的内存泄露） (http://blog.csdn.net/ly502541243/article/details/52062179)
+#### 从getApplicationContext和getApplication再次梳理Android的Application正确用法 (http://blog.csdn.net/ly502541243/article/details/52105466)
+
+####  到底getApplicationContext和getApplication是不是返回同一个对象？ (http://blog.csdn.net/ly502541243/article/details/52127806)
+
 ### About me
 * Email: lyyx@outlook.com
 * WeiBo:http://weibo.com/liuyang6
