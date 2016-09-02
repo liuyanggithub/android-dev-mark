@@ -11,6 +11,8 @@
 
 [到底getApplicationContext和getApplication是不是返回同一个对象？](http://blog.csdn.net/ly502541243/article/details/52127806)
 
+[AsyncTask你真的用对了吗？](http://blog.csdn.net/ly502541243/article/details/52329861)
+
 ### About me
 * Email: lyyx@outlook.com
 * WeiBo:http://weibo.com/liuyang6
