@@ -13,6 +13,8 @@
 
 [AsyncTask你真的用对了吗？](http://blog.csdn.net/ly502541243/article/details/52329861)
 
+[Thread、Handler和HandlerThread关系何在？](http://blog.csdn.net/ly502541243/article/details/52414637)
+
 ### About me
 * Email: lyyx@outlook.com
 * WeiBo:http://weibo.com/liuyang6
