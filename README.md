@@ -16,8 +16,9 @@
 [Thread、Handler和HandlerThread关系何在？](http://blog.csdn.net/ly502541243/article/details/52414637)
 
 ### About me
-* Email: lyyx@outlook.com
-* WeiBo:http://weibo.com/liuyang6
+* [Email](LYYX@outlook.com)
+* [WeiBo](http://weibo.com/liuyang6)
+* [Blog](http://blog.csdn.net/ly502541243)
 
 # Welcome
 欢迎大家Fork, Star, Issues, 分享给其他人
