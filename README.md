@@ -15,6 +15,8 @@
 
 [Thread、Handler和HandlerThread关系何在？](http://blog.csdn.net/ly502541243/article/details/52414637)
 
+[梳理Android的IPC进程间通信(最新AndroidStudio的AIDL操作)](http://blog.csdn.net/ly502541243/article/details/52514665)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
