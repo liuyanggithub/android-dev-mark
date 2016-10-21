@@ -4,7 +4,6 @@
 
 
 ----------
-## 以下为原创的一些东西：
 [从Handler.post(Runnable r)再一次梳理Android的消息机制（以及handler的内存泄露）] (http://blog.csdn.net/ly502541243/article/details/52062179)
 
 [从getApplicationContext和getApplication再次梳理Android的Application正确用法] (http://blog.csdn.net/ly502541243/article/details/52105466)
@@ -16,6 +15,12 @@
 [Thread、Handler和HandlerThread关系何在？](http://blog.csdn.net/ly502541243/article/details/52414637)
 
 [梳理Android的IPC进程间通信(最新AndroidStudio的AIDL操作)](http://blog.csdn.net/ly502541243/article/details/52514665)
+
+[Android应用进程启动流程（Zygote进程与SystemServer进程）](http://blog.csdn.net/ly502541243/article/details/52639830)
+
+[Android Activity启动流程源码全解析（1）](http://blog.csdn.net/ly502541243/article/details/52883198)
+
+[Android Activity启动流程源码全解析（2）](http://blog.csdn.net/ly502541243/article/details/52883212)
 
 ### About me
 * [Email](LYYX@outlook.com)
