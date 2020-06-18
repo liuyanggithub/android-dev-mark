@@ -3,6 +3,7 @@
 > 一些Android开发时自己写的或者收藏的笔记
 
 
+
 ----------
 [从Handler.post(Runnable r)再一次梳理Android的消息机制（以及handler的内存泄露）] (http://blog.csdn.net/ly502541243/article/details/52062179)
 
