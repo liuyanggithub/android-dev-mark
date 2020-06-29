@@ -1,6 +1,6 @@
 # android-dev-mark
 > Android development mark, It used to collect the knowledge of Android Development. 
-> 一些Android开发时自己写的或者收藏的笔记
+> 一些Android开发时自己写的或者收藏的文章笔记
 
 
 
