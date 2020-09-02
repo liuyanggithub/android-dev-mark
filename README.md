@@ -4,7 +4,6 @@
 
 
 
-
 ----------
 [从Handler.post(Runnable r)再一次梳理Android的消息机制（以及handler的内存泄露）] (http://blog.csdn.net/ly502541243/article/details/52062179)
 
