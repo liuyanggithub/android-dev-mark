@@ -3,8 +3,6 @@
 > 一些Android开发时自己写的或者收藏的文章笔记
 
 
-
-
 ----------
 [从Handler.post(Runnable r)再一次梳理Android的消息机制（以及handler的内存泄露）] (http://blog.csdn.net/ly502541243/article/details/52062179)
 
@@ -23,6 +21,8 @@
 [Android Activity启动流程源码全解析（1）](http://blog.csdn.net/ly502541243/article/details/52883198)
 
 [Android Activity启动流程源码全解析（2）](http://blog.csdn.net/ly502541243/article/details/52883212)
+
+[一个线程可以有几个Looper？几个Handler？从Looper.prepare()来看看关于Looper的一些问题](https://blog.csdn.net/ly502541243/article/details/87475229)
 
 ### About me
 * [Email](LYYX@outlook.com)
