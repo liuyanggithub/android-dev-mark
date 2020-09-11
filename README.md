@@ -24,6 +24,8 @@
 
 [一个线程可以有几个Looper？几个Handler？从Looper.prepare()来看看关于Looper的一些问题](https://blog.csdn.net/ly502541243/article/details/87475229)
 
+[解锁Android点击事件分发机制](https://blog.csdn.net/ly502541243/article/details/78842872)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
