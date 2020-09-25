@@ -35,6 +35,8 @@
 
 [解决RecyclerView在ScrollView中会置顶它上面的控件](https://blog.csdn.net/ly502541243/article/details/87257834)
 
+[一个线程可以有几个Looper？几个Handler？从Looper.prepare()来看看关于Looper的一些问题](https://blog.csdn.net/ly502541243/article/details/87475229)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
