@@ -38,6 +38,8 @@
 
 [Retrofit是如何创建的？为什么要用动态代理](https://blog.csdn.net/ly502541243/article/details/88963829)
 
+[Retrofit2.5是如何解析在接口类中定义的方法？](https://blog.csdn.net/ly502541243/article/details/88998217)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
