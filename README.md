@@ -40,6 +40,8 @@
 
 [Retrofit2.5是如何解析在接口类中定义的方法？](https://blog.csdn.net/ly502541243/article/details/88998217)
 
+[Retrofit2.5怎么做到网络请求的处理的？](https://blog.csdn.net/ly502541243/article/details/89088089)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
