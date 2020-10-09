@@ -42,6 +42,8 @@
 
 [Retrofit2.5怎么做到网络请求的处理的？](https://blog.csdn.net/ly502541243/article/details/89088089)
 
+[What？EventBus的核心竟然只是这两个Map？](https://blog.csdn.net/ly502541243/article/details/89539748)
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
