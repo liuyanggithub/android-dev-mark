@@ -44,6 +44,9 @@
 
 [What？EventBus的核心竟然只是这两个Map？](https://blog.csdn.net/ly502541243/article/details/89539748)
 
+[从Handler.postDelayed来看看Android怎么实现处理延时消息](https://blog.csdn.net/ly502541243/article/details/108868731)
+
+
 ### About me
 * [Email](LYYX@outlook.com)
 * [WeiBo](http://weibo.com/liuyang6)
