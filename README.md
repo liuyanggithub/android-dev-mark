@@ -47,6 +47,8 @@
 
 [从Handler.postDelayed来看看Android怎么实现处理延时消息](https://blog.csdn.net/ly502541243/article/details/108868731)
 
+[从isAsynchronous方法来看看Handler异步消息与同步屏障(SyncBarrier)](https://blog.csdn.net/ly502541243/article/details/109091386)
+
 
 ### About me
 * [Email](LYYX@outlook.com)
